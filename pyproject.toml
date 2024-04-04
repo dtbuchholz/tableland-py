@@ -1,10 +1,14 @@
 [tool.poetry]
 name = "tableland"
-version = "0.0.1"
+version = "0.0.1-pre.0"
 description = "A minimal Tableland Python SDK for creating, writing, and reading onchain tables"
 authors = ["Dan Buchholz <dbuchholz30@gmail.com>"]
 license = "MIT AND Apache-2.0"
 readme = "README.md"
+packages = [
+    { include = "abi.json" },
+    { include = "tableland" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
