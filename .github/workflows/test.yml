@@ -16,10 +16,11 @@ jobs:
               with:
                   python-version: 3.11
 
-            - name: Install dependencies with poetry
-              run: |
-                  pipx install poetry
-                  poetry install
+            - name: Install poetry
+              run: pipx install poetry
+
+            - name: Install dependencies
+              run: poetry install
 
             - run: poetry run isort --recursive --diff .
             - run: poetry run black --check .
