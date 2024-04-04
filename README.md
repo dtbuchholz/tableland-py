@@ -8,7 +8,7 @@
 
 ## Background
 
-This package is a simple Tableland SDK for Python. It is designed to work with the [Tableland](https://tableland.xyz) network and uses the [web3.py](https://web3py.readthedocs.io/en/stable/) library for blockchain interacts.
+This package is a simple Python SDK for the [Tableland](https://tableland.xyz) network. It's built around the [web3.py](https://web3py.readthedocs.io/en/stable/) library for onchain interactions and lets developers create, read, and write data to Tableland tables.
 
 ## Install
 

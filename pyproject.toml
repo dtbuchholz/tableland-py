@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tableland"
-version = "0.0.0-pre.0"
+version = "0.0.1"
 description = "A minimal Tableland Python SDK for creating, writing, and reading onchain tables"
 authors = ["Dan Buchholz <dbuchholz30@gmail.com>"]
 license = "MIT AND Apache-2.0"
