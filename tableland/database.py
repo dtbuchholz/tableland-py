@@ -49,7 +49,7 @@ class Database:
         self.w3 = Web3(Web3.HTTPProvider(provider_uri))
         self.signer = Account.from_key(private_key)
         # Set up Tableland registry contract and validator base URI
-        abi_file = Path(__file__).parent.parent / "abi.json"
+        abi_file = Path(__file__).parent / "abi.json"
         abi = read_file_to_json(abi_file)
         registry_addr = get_registry_address(self.w3.eth.chain_id)
         self.registry = self.w3.eth.contract(

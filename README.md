@@ -147,6 +147,9 @@ poetry poe test
 poetry poe coverage
 # Or
 poetry run pytest
+
+# Build the package
+poetry build
 ```
 
 > Note: if you're using a Mac M1/M2 and the default poetry settings, you _might_ run into issues with respect to the Python virtual environment's cache directory defined in the global poetry configuration. Check the path by running `poetry config --list` and looking at the `cache-dir` value. If that's the case, running `poetry config cache-dir "$HOME/.local/share/virtualenvs"` should fix it (i.e., the previous value is `$HOME/Library/Caches/pypoetry`). Alternatively, setting the `virtualenvs.in-project` config to `true` will use a local `.venv` instead.
@@ -160,4 +163,4 @@ This package was created with Cookiecutter and the [sourcery.ai](https://github.
 
 ## License
 
-MIT AND Apache-2.0, © 2021-2024 Textile Contributors
+MIT AND Apache-2.0, © 2021-2024 Tableland Network Contributors
