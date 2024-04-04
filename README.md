@@ -2,6 +2,7 @@
 
 [![License: MIT AND Apache-2.0](https://img.shields.io/badge/License-MIT%20AND%20Apache--2.0-blue.svg)](./LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg)](https://github.com/RichardLitt/standard-readme)
+[![PyPI version](https://badge.fury.io/py/tableland.svg)](https://badge.fury.io/py/tableland)
 
 > A minimal Tableland Python SDK for creating, writing, and reading onchain tables
 
