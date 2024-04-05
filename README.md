@@ -18,10 +18,10 @@ You can install with `pip`:
 pip install tableland
 ```
 
-With `pipx`:
+With `pipenv`:
 
 ```sh
-pipx install tableland
+pipenv install tableland
 ```
 
 Or with `poetry`:
