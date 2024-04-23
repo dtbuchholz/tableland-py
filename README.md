@@ -136,15 +136,18 @@ Once that's set up, you can install the project dependencies and run various tas
 # Install dependencies
 poetry install
 
+# Make sure git is initialized, if not already
+git init
+
 # Setup pre-commit and pre-push hooks
-poetry poe pre-commit
+poetry run poe pre-commit
 
 # Run linters
-poetry poe lint
+poetry run poe lint
 
 # Run tests
-poetry poe test
-poetry poe coverage
+poetry run poe test
+poetry run poe coverage
 # Or
 poetry run pytest
 
